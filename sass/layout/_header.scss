@@ -1,5 +1,5 @@
 .header {
-  height: 95vh;
+  height: 9500vh;
   background-image: url(../img/header.png);
   background-size: cover;
   background-position: top;
@@ -36,7 +36,8 @@
     background-color: white;
     text-align: center;
     margin: 0, auto;
-    position: relative;
+    position: sticky;
+    top: 0;
   }
 
   &__navigation a {
