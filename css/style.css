@@ -41,7 +41,7 @@ body {
     color: #a3c145; }
 
 .header {
-  height: 950vh;
+  height: 95vh;
   background-image: url(../img/header.png);
   background-size: cover;
   background-position: top; }
