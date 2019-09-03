@@ -1,5 +1,5 @@
 .header {
-  height: 9500vh;
+  height: 950vh;
   background-image: url(../img/header.png);
   background-size: cover;
   background-position: top;
@@ -38,6 +38,7 @@
     margin: 0, auto;
     position: sticky;
     top: 0;
+    z-index: 9999;
   }
 
   &__navigation a {
