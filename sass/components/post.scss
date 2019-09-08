@@ -1,0 +1,22 @@
+.post {
+  background-color: white;
+  text-align: center;
+
+  &__photo {
+    height: 30rem;
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+#photo--1 {
+  background-image: url(../img/post_photo1.jpg);
+}
+
+#photo--2 {
+  background-image: url(../img/post_photo2.jpg);
+}
+
+#photo--3 {
+  background-image: url(../img/post_photo3.jpg);
+}
