@@ -13,19 +13,28 @@
 .btn--white {
   &:hover {
     color: #fff;
-    background-color: #a3c145;
+    background-color: $color-main-green;
   }
   background-color: #fff;
-  color: #a3c145;
+  color: $color-main-green;
 }
 
 .btn--green {
   &:hover {
     background-color: #fff;
-    color: #a3c145;
+    color: $color-main-green;
   }
-  background-color: #a3c145;
+  background-color: $color-main-green;
   color: #fff;
+}
+
+.btn--gray {
+  background-color: #3a3a3a;
+
+  &:hover {
+    background-color: #fff;
+    color: #3a3a3a;
+  }
 }
 
 .btn--border-green {

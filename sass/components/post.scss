@@ -1,12 +1,16 @@
 .post {
   background-color: white;
   text-align: center;
+  box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.34);
+  font-family: "Courier New", Courier, monospace;
 
   &__photo {
     height: 30rem;
     background-size: cover;
     background-position: top;
   }
+
+  z-index: -1;
 }
 
 #photo--1 {

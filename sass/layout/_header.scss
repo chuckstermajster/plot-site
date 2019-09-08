@@ -36,8 +36,10 @@
     background-color: white;
     text-align: center;
     margin: 0, auto;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    width: 100%;
     z-index: 9999;
   }
 
@@ -88,10 +90,19 @@
   float: left;
   margin-left: 2rem;
   margin-top: 1rem;
+  @include clearfix;
 }
 
 .header__telephone--space,
 .header__envelope--space {
   display: inline-block;
   margin-right: 0.5rem;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.top-8 {
+  top: 8rem;
 }
